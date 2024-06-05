@@ -317,8 +317,12 @@ download_slib # for production this block
               # minus its header
 ##########################################
 
+
+
 # Get OS type
 get_distro
+os_type ="debian"
+
 
 # Check the serial number and key
 serial_ok "$SERIAL" "$KEY"
